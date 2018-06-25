@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name STM32F042F6P6)(type Legacy)(uri "$(KIPRJMOD)/libraries/STM32F042F6P6.mod")(options "")(descr ""))
+  (lib (name ADP7118AUJZ-3.3-R7)(type Legacy)(uri "$(KIPRJMOD)/libraries/ADP7118AUJZ-3.3-R7.mod")(options "")(descr ""))
+  (lib (name DMG3420U-7)(type Legacy)(uri "$(KIPRJMOD)/libraries/DMG3420U-7.mod")(options "")(descr ""))
+  (lib (name DMP2100U-7)(type Legacy)(uri "$(KIPRJMOD)/libraries/DMP2100U-7.mod")(options "")(descr ""))
+  (lib (name MAX5214GUAT)(type Legacy)(uri "$(KIPRJMOD)/libraries/MAX5214GUAT.mod")(options "")(descr ""))
+  (lib (name MAX6106EUR-T)(type Legacy)(uri "$(KIPRJMOD)/libraries/MAX6106EUR-T.mod")(options "")(descr ""))
+  (lib (name TPS22918TDBVTQ1)(type Legacy)(uri "$(KIPRJMOD)/libraries/TPS22918TDBVTQ1.mod")(options "")(descr ""))
+  (lib (name ZX62M-B-5P_01_)(type Legacy)(uri "$(KIPRJMOD)/libraries/ZX62M-B-5P_01_.mod")(options "")(descr ""))
+)

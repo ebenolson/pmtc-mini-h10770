@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J2";"Molex_PicoBlade_53047-1010_1x05_P1.25mm_Vertical";1;"Conn_01x05";;;
+2;"U2";"21-0036K";1;"MAX5214GUAT";;;
+3;"U1";"21-0051H";1;"MAX6106EUR-T";;;
+4;"P1";"HRS_ZX62M-B-5P(01)";1;"ZX62M-B-5P(01)";;;
+5;"U3";"SOP65P640X120-20N";1;"STM32F042F6P6";;;
+6;"U6,U4";"SOT95P280X100-5N";2;"ADP7118AUJZ-3.3-R7";;;
+7;"U5";"SOT95P280X100-6N";1;"TPS22918TDBVTQ1";;;
+8;"C12,C10";"C_0402_1005Metric";2;"47pF";;;
+9;"C11,C6,C4,C3,C1";"C_0402_1005Metric";5;"0.1uF";;;
+10;"C2";"C_0402_1005Metric";1;"1uF";;;
+11;"C9,C8,C7,C5";"C_0603_1608Metric";4;"2.2uF";;;
+12;"J1";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03";;;
+13;"D1";"LED_0603_1608Metric";1;"LED";;;
+14;"R7,R2";"R_0402_1005Metric";2;"0";;;
+15;"R1,R4";"R_0402_1005Metric";2;"1.5k";;;
+16;"R3";"R_0402_1005Metric";1;"330";;;
+17;"R5,R6";"R_0402_1005Metric";2;"22";;;

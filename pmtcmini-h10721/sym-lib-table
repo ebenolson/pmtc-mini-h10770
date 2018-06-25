@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name STM32F042F6P6)(type Legacy)(uri ${KIPRJMOD}/libraries/STM32F042F6P6.lib)(options "")(descr ""))
+  (lib (name DMG3420U-7)(type Legacy)(uri ${KIPRJMOD}/libraries/DMG3420U-7.lib)(options "")(descr ""))
+  (lib (name MAX5214GUAT)(type Legacy)(uri ${KIPRJMOD}/libraries/MAX5214GUAT.lib)(options "")(descr ""))
+  (lib (name MAX6106EUR-T)(type Legacy)(uri ${KIPRJMOD}/libraries/MAX6106EUR-T.lib)(options "")(descr ""))
+  (lib (name ZX62M-B-5P_01_)(type Legacy)(uri ${KIPRJMOD}/libraries/ZX62M-B-5P_01_.lib)(options "")(descr ""))
+  (lib (name ADP7118AUJZ-3.3-R7)(type Legacy)(uri ${KIPRJMOD}/libraries/ADP7118AUJZ-3.3-R7.lib)(options "")(descr ""))
+  (lib (name TPS22918TDBVTQ1)(type Legacy)(uri ${KIPRJMOD}/libraries/TPS22918TDBVTQ1.lib)(options "")(descr ""))
+)

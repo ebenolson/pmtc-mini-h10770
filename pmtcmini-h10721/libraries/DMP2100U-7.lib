@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DMP2100U-7
+#/1290879/52578/2.27/3/0/MOSFET (P-Channel)
+DEF DMP2100U-7 Q 0 30 Y Y 1 F N
+F0 "Q" 650 300 50 H V L CNN
+F1 "DMP2100U-7" 650 200 50 H V L CNN
+F2 "SOT95P230X110-3N" 650 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/8222627P" 650 0 50 H I L CNN
+F4 "Diodes Inc DMP2100U-7 P-channel MOSFET Transistor, 3.4 A, 20 V, 3-Pin SOT-23" 650 -100 50 H I L CNN "Description"
+F5 "1.1" 650 -200 50 H I L CNN "Height"
+F6 "Diodes Inc." 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DMP2100U-7" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "RS Part Number"
+F9 "" 650 -600 50 H I L CNN "RS Price/Stock"
+F10 "DMP2100U-7" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X G 1 0 0 200 R 50 50 0 0 B
+X D 3 0 -100 200 R 50 50 0 0 B
+X S 2 800 0 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

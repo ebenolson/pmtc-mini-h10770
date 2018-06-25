@@ -1,0 +1,154 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+HRS_ZX62M-B-5P(01)
+$EndINDEX
+$MODULE HRS_ZX62M-B-5P(01)
+Po 0 0 0 15 00000000 00000000 ~~
+Li HRS_ZX62M-B-5P(01)
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -4.27892 -8.16203 1.00209 1.00209 0 0.05 N V 21 "HRS_ZX62M-B-5P(01)"
+T1 -3.91304 6.37811 1.00206 1.00206 0 0.05 N V 21 "VAL**"
+DS 3.75 2.72 -3.75 2.72 0.1 21
+DP 0 0 0 0 4 0.381 24
+Dl -1.45936 -1.83064
+Dl -1.45936 -3.68827
+Dl -1.14827 -3.68827
+Dl -1.14827 -1.83064
+DP 0 0 0 0 4 0.381 24
+Dl -0.808921 -1.83108
+Dl -0.808921 -3.6844
+Dl -0.494404 -3.6844
+Dl -0.494404 -1.83108
+DP 0 0 0 0 4 0.381 24
+Dl -0.158771 -1.83123
+Dl -0.158771 -3.68259
+Dl 0.157412 -3.68259
+Dl 0.157412 -1.83123
+DP 0 0 0 0 4 0.381 24
+Dl 0.49257 -1.83257
+Dl 0.49257 -3.68318
+Dl 0.806821 -3.68318
+Dl 0.806821 -1.83257
+DP 0 0 0 0 4 0.381 24
+Dl 1.14232 -1.83232
+Dl 1.14232 -3.68173
+Dl 1.45827 -3.68173
+Dl 1.45827 -1.83232
+DS -3.75 3.42 -3.75 -1.83 0.1 21
+DS 3.75 3.42 3.75 -1.83 0.1 21
+DS -3.75 -1.83 3.75 -1.83 0.1 21
+DS 3.75 3.42 3.15 3.42 0.1 21
+DS 3.15 3.42 2.5 3.42 0.1 21
+DS 2.5 3.42 -2.5 3.42 0.1 21
+DS -2.5 3.42 -3.15 3.42 0.1 21
+DS -3.15 3.42 -3.75 3.42 0.1 21
+DS 2.5 4.02 -2.5 4.02 0.1 21
+DS -4.05 3.72 -3.75 3.42 0.1 21
+DS -3.75 4.02 -3.15 3.42 0.1 21
+DS -4.05 3.72 -3.75 4.02 0.1 21
+DS 4.05 3.72 3.75 3.42 0.1 21
+DS 3.15 3.42 3.75 4.02 0.1 21
+DS 3.75 4.02 4.05 3.72 0.1 21
+DS -2.5 4.02 -2.5 3.42 0.1 21
+DS 2.5 4.02 2.5 3.42 0.1 21
+DS -3.9 3.27 -3.9 -2.33 0 24
+DS -3.9 -2.33 3.9 -2.33 0 24
+DS 3.9 -2.33 3.9 3.27 0 24
+DS -5 3.27 -3.9 3.27 0 24
+DS 5 3.27 3.9 3.27 0 24
+$PAD
+Sh "S4" R 1.5 2 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.35 -5.13
+$EndPAD
+$PAD
+Sh "S5" R 1.5 2 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.35 -5.13
+$EndPAD
+$PAD
+Sh "S2" R 2.4 1.6 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -5.2 1.27
+$EndPAD
+$PAD
+Sh "S1" R 2.4 1.6 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 5.2 1.27
+$EndPAD
+$PAD
+Sh "1" R 1.05 0.4 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.3 -3.355
+$EndPAD
+$PAD
+Sh "2" R 1.05 0.4 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.65 -3.355
+$EndPAD
+$PAD
+Sh "3" R 1.05 0.4 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -3.355
+$EndPAD
+$PAD
+Sh "4" R 1.05 0.4 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.65 -3.355
+$EndPAD
+$PAD
+Sh "5" R 1.05 0.4 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.3 -3.355
+$EndPAD
+$PAD
+Sh "S3" R 2.4 1.6 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -5.2 -3.03
+$EndPAD
+$PAD
+Sh "S6" R 2.4 1.6 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 5.2 -3.03
+$EndPAD
+$EndMODULE HRS_ZX62M-B-5P(01)
