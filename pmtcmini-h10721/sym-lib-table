@@ -6,4 +6,5 @@
   (lib (name ZX62M-B-5P_01_)(type Legacy)(uri ${KIPRJMOD}/libraries/ZX62M-B-5P_01_.lib)(options "")(descr ""))
   (lib (name ADP7118AUJZ-3.3-R7)(type Legacy)(uri ${KIPRJMOD}/libraries/ADP7118AUJZ-3.3-R7.lib)(options "")(descr ""))
   (lib (name TPS22918TDBVTQ1)(type Legacy)(uri ${KIPRJMOD}/libraries/TPS22918TDBVTQ1.lib)(options "")(descr ""))
+  (lib (name 10104110-0001LF)(type Legacy)(uri ${KIPRJMOD}/libraries/10104110-0001LF.lib)(options "")(descr ""))
 )

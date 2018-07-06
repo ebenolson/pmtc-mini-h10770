@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pmtcmini-h10721-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -30,22 +31,6 @@ F 9 "http://uk.rs-online.com/web/p/products/1655434" H 5050 2050 50  0001 L CNN 
 F 10 "STM32F042F6P6" H 5050 1950 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/stm32f042f6p6/stmicroelectronics" H 5050 1850 50  0001 L CNN "Arrow Price/Stock"
 	1    3400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L ZX62M-B-5P_01_:ZX62M-B-5P(01) P1
-U 1 1 5B2BD5B0
-P 10200 1500
-F 0 "P1" H 10430 1546 50  0000 L CNN
-F 1 "ZX62M-B-5P(01)" H 10430 1455 50  0000 L CNN
-F 2 "HRS_ZX62M-B-5P(01)" H 10200 1500 50  0001 L BNN
-F 3 "ZX62M-B-5P_01_" H 10200 1500 50  0001 L BNN
-F 4 "None" H 10200 1500 50  0001 L BNN "Field4"
-F 5 "Conn Micro USB 2.0 Type B RCP 5 POS 0.65mm Solder RA SMD 5 Terminal 1 Port T/R" H 10200 1500 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 10200 1500 50  0001 L BNN "Field6"
-F 7 "None" H 10200 1500 50  0001 L BNN "Field7"
-F 8 "Hirose" H 10200 1500 50  0001 L BNN "Field8"
-	1    10200 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -220,9 +205,9 @@ Wire Wire Line
 	9900 1400 8900 1400
 Wire Wire Line
 	8900 1400 8900 1450
-Text Label 9400 1500 0    50   ~ 0
+Text Label 9650 1500 0    50   ~ 0
 USBP
-Text Label 8900 1400 0    50   ~ 0
+Text Label 9650 1400 0    50   ~ 0
 USBM
 $Comp
 L power:+3.3V #PWR025
@@ -277,7 +262,7 @@ F 3 "" H 9650 2950 50  0001 C CNN
 $EndComp
 Text Label 9550 2550 0    50   ~ 0
 PMT_VDD
-Text Label 9550 2650 0    50   ~ 0
+Text Label 8400 2650 0    50   ~ 0
 PMT_ADJ
 $Comp
 L power:+3.3VA #PWR02
@@ -408,21 +393,16 @@ Wire Wire Line
 $Comp
 L Device:C C11
 U 1 1 5B2C64DD
-P 9200 2800
-F 0 "C11" H 9315 2846 50  0000 L CNN
-F 1 "0.1uF" H 9315 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9238 2650 50  0001 C CNN
-F 3 "~" H 9200 2800 50  0001 C CNN
-	1    9200 2800
+P 9350 2800
+F 0 "C11" H 9465 2846 50  0000 L CNN
+F 1 "0.1uF" H 9465 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9388 2650 50  0001 C CNN
+F 3 "~" H 9350 2800 50  0001 C CNN
+	1    9350 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 2650 9900 2650
-Wire Wire Line
-	9200 2950 9650 2950
-Wire Wire Line
 	9650 2950 9650 2750
-Connection ~ 9650 2950
 Wire Wire Line
 	9650 2750 9900 2750
 $Comp
@@ -945,14 +925,79 @@ F 3 "" H 3400 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0104
 U 1 1 5B37A85E
 P 5950 2550
-F 0 "#PWR?" H 5950 2400 50  0001 C CNN
+F 0 "#PWR0104" H 5950 2400 50  0001 C CNN
 F 1 "+3.3V" H 5965 2723 50  0000 C CNN
 F 2 "" H 5950 2550 50  0001 C CNN
 F 3 "" H 5950 2550 50  0001 C CNN
 	1    5950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0105
+U 1 1 5B3FA3AB
+P 10000 5550
+F 0 "#PWR0105" H 10000 5300 50  0001 C CNN
+F 1 "GNDA" H 10005 5377 50  0000 C CNN
+F 2 "" H 10000 5550 50  0001 C CNN
+F 3 "" H 10000 5550 50  0001 C CNN
+	1    10000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5B3FA3B1
+P 9700 5550
+F 0 "#PWR0106" H 9700 5300 50  0001 C CNN
+F 1 "GND" H 9705 5377 50  0000 C CNN
+F 2 "" H 9700 5550 50  0001 C CNN
+F 3 "" H 9700 5550 50  0001 C CNN
+	1    9700 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5550 10000 5550
+$Comp
+L Device:R R8
+U 1 1 5B403449
+P 8950 2650
+F 0 "R8" V 8743 2650 50  0000 C CNN
+F 1 "49.9" V 8834 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8880 2650 50  0001 C CNN
+F 3 "~" H 8950 2650 50  0001 C CNN
+	1    8950 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 2650 8800 2650
+Wire Wire Line
+	9100 2650 9350 2650
+Connection ~ 9350 2650
+Wire Wire Line
+	9350 2650 9900 2650
+Wire Wire Line
+	9350 2950 9650 2950
+Connection ~ 9650 2950
+$Comp
+L 10104110-0001LF:10104110-0001LF J3
+U 1 1 5B427694
+P 9900 1300
+F 0 "J3" H 10628 1246 50  0000 L CNN
+F 1 "10104110-0001LF" H 10628 1155 50  0000 L CNN
+F 2 "10104110-0001LF" H 10550 1400 50  0001 L CNN
+F 3 "http://docs-europe.electrocomponents.com/webdocs/0ed1/0900766b80ed1ae6.pdf" H 10550 1300 50  0001 L CNN
+F 4 "USB Connectors 5P Quick Connect Micro USB TypeB Rcpt" H 10550 1200 50  0001 L CNN "Description"
+F 5 "FCI" H 10550 1000 50  0001 L CNN "Manufacturer_Name"
+F 6 "10104110-0001LF" H 10550 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "1738645" H 10550 800 50  0001 L CNN "RS Part Number"
+F 8 "http://uk.rs-online.com/web/p/products/1738645" H 10550 700 50  0001 L CNN "RS Price/Stock"
+F 9 "70236824" H 10550 600 50  0001 L CNN "Allied_Number"
+F 10 "http://www.alliedelec.com/fci-10104110-0001lf/70236824/" H 10550 500 50  0001 L CNN "Allied Price/Stock"
+F 11 "10104110-0001LF" H 10550 400 50  0001 L CNN "Arrow Part Number"
+F 12 "https://www.arrow.com/en/products/10104110-0001lf/amphenol-fci" H 10550 300 50  0001 L CNN "Arrow Price/Stock"
+	1    9900 1300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
