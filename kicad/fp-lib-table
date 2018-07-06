@@ -9,4 +9,5 @@
   (lib (name ZX62M-B-5P_01_)(type Legacy)(uri "$(KIPRJMOD)/libraries/ZX62M-B-5P_01_.mod")(options "")(descr ""))
   (lib (name 10104110-0001LF)(type Legacy)(uri "$(KIPRJMOD)/libraries/10104110-0001LF.mod")(options "")(descr ""))
   (lib (name Mounting_Holes)(type KiCad)(uri "$(KIPRJMOD)/libraries/Mounting_Holes.pretty")(options "")(descr ""))
+  (lib (name libraries)(type KiCad)(uri "$(KIPRJMOD)/libraries/libraries.pretty")(options "")(descr ""))
 )
