@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 10118192-0001LF
+#
+DEF 10118192-0001LF J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "10118192-0001LF" 650 200 50 H V L CNN
+F2 "10118192-0001LF" 650 100 50 H I L CNN
+F3 "http://docs-europe.electrocomponents.com/webdocs/1450/0900766b814507ee.pdf" 650 0 50 H I L CNN
+F4 "FCI,10118192-0001LF,Connector,USB FCI Right Angle Surface Mount Mount Female USB Connector, 100 V ac, 1.8A" 650 -100 50 H I L CNN "Description"
+F5 "FCI" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "10118192-0001LF" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "8632986" 650 -500 50 H I L CNN "RS Part Number"
+F8 "http://uk.rs-online.com/web/p/products/8632986" 650 -600 50 H I L CNN "RS Price/Stock"
+F9 "70236826" 650 -700 50 H I L CNN "Allied_Number"
+F10 "http://www.alliedelec.com/fci-10118192-0001lf/70236826/" 650 -800 50 H I L CNN "Allied Price/Stock"
+F11 "10118192-0001LF" 650 -900 50 H I L CNN "Arrow Part Number"
+F12 "https://www.arrow.com/en/products/10118192-0001lf/amphenol-fci" 650 -1000 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X Vcc 1 400 300 200 D 50 50 0 0 B
+X D- 2 0 0 200 R 50 50 0 0 B
+X D+ 3 0 -100 200 R 50 50 0 0 B
+X ID 4 800 0 200 L 50 50 0 0 B
+X GND 5 400 -500 200 U 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

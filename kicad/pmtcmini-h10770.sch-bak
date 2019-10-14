@@ -222,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 7100 1450 7100
 Text Label 1450 6900 0    50   ~ 0
-~CS
+\CS
 Text Label 1450 7000 0    50   ~ 0
 SCLK
 Text Label 1450 7100 0    50   ~ 0

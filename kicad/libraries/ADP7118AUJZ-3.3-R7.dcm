@@ -2,7 +2,6 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP ADP7118AUJZ-3.3-R7
 D LDO Regulator Pos 3.3V 0.2A 5-Pin TSOT-23 T/R
-K
 F https://www.arrow.com/en/products/adp7118aujz-3.3-r7/analog-devices
 $ENDCMP
 #
