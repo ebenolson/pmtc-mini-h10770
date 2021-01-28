@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:pmtcmini-h10770-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x04 J1
+L Connector_Generic:Conn_01x03 J1
 U 1 1 5B2BD72A
 P 10100 2650
 F 0 "J1" H 10019 2325 50  0000 C CNN
 F 1 "Conn_01x04" H 10450 2450 50  0000 C CNN
-F 2 "libraries:PinHeader_1x04_P2.54mm_Vertical" H 10100 2650 50  0001 C CNN
+F 2 "libraries:PinHeader_1x03_P2.54mm_Vertical" H 10100 2650 50  0001 C CNN
 F 3 "~" H 10100 2650 50  0001 C CNN
 	1    10100 2650
 	1    0    0    1   
@@ -97,17 +97,6 @@ F 10 "ADP7118AUJZ-3.3-R7" H 6000 5000 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 6000 4900 50  0001 L CNN "Arrow Price/Stock"
 	1    5050 5700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small D1
-U 1 1 5B2BE2AD
-P 3950 2200
-F 0 "D1" V 3988 2083 50  0000 R CNN
-F 1 "LED" V 3897 2083 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3950 2200 50  0001 C CNN
-F 3 "~" H 3950 2200 50  0001 C CNN
-	1    3950 2200
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR028
@@ -410,30 +399,6 @@ F 3 "" H 6600 5600 50  0001 C CNN
 	1    6600 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R3
-U 1 1 5B2D41E2
-P 3950 1900
-F 0 "R3" H 4020 1946 50  0000 L CNN
-F 1 "1.5k" H 4020 1855 50  0000 L CNN
-F 2 "libraries:R_0603_1608Metric" V 3880 1900 50  0001 C CNN
-F 3 "~" H 3950 1900 50  0001 C CNN
-	1    3950 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR010
-U 1 1 5B2D43E9
-P 3950 1750
-F 0 "#PWR010" H 3950 1600 50  0001 C CNN
-F 1 "+3.3V" H 3965 1923 50  0000 C CNN
-F 2 "" H 3950 1750 50  0001 C CNN
-F 3 "" H 3950 1750 50  0001 C CNN
-	1    3950 1750
-	1    0    0    -1  
-$EndComp
-Text Label 3400 2500 0    50   ~ 0
-LED
 Text Label 3750 2150 2    50   ~ 0
 USBP
 Text Label 3750 2250 2    50   ~ 0
@@ -715,8 +680,6 @@ Wire Wire Line
 Wire Wire Line
 	1150 2900 1550 2900
 Wire Wire Line
-	3350 2500 3950 2500
-Wire Wire Line
 	6450 1200 6450 1100
 Wire Wire Line
 	6450 1100 6100 1100
@@ -889,12 +852,6 @@ F 3 "" H 3800 5700 50  0001 C CNN
 	1    3800 5700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3950 1800 3950 1750
-Wire Wire Line
-	3950 2100 3950 2000
-Wire Wire Line
-	3950 2300 3950 2500
 Text Label 9600 5200 0    50   ~ 0
 -12V
 Wire Wire Line
@@ -904,5 +861,4 @@ Wire Wire Line
 Wire Wire Line
 	7900 1000 7900 1200
 Connection ~ 7900 1200
-NoConn ~ 9900 2450
 $EndSCHEMATC
