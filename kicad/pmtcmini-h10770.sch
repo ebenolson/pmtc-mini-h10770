@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:pmtcmini-h10770-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,7 +25,7 @@ F 3 "~" H 10100 2650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J2
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5B2BD838
 P 10300 3900
 F 0 "J2" H 10380 3942 50  0000 L CNN
@@ -117,19 +116,6 @@ Text Label 9650 1500 0    50   ~ 0
 USBP
 Text Label 9650 1400 0    50   ~ 0
 USBM
-$Comp
-L power:+3.3V #PWR025
-U 1 1 5B2BE943
-P 9950 3650
-F 0 "#PWR025" H 9950 3500 50  0001 C CNN
-F 1 "+3.3V" H 9965 3823 50  0000 C CNN
-F 2 "" H 9950 3650 50  0001 C CNN
-F 3 "" H 9950 3650 50  0001 C CNN
-	1    9950 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 3700 9950 3700
 Wire Wire Line
 	10100 3800 9700 3800
 Wire Wire Line
@@ -139,16 +125,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR026
 U 1 1 5B2BED43
-P 9950 4250
-F 0 "#PWR026" H 9950 4000 50  0001 C CNN
-F 1 "GND" H 9955 4077 50  0000 C CNN
-F 2 "" H 9950 4250 50  0001 C CNN
-F 3 "" H 9950 4250 50  0001 C CNN
-	1    9950 4250
+P 9950 4150
+F 0 "#PWR026" H 9950 3900 50  0001 C CNN
+F 1 "GND" H 9955 3977 50  0000 C CNN
+F 2 "" H 9950 4150 50  0001 C CNN
+F 3 "" H 9950 4150 50  0001 C CNN
+	1    9950 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 4200 10100 4200
+	9950 4100 10100 4100
 Text Label 9700 3800 0    50   ~ 0
 SWDIO
 Text Label 9700 3900 0    50   ~ 0
@@ -420,11 +406,11 @@ F 3 "" H 1150 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 2800 1550 2800
-Text Label 1150 2800 0    50   ~ 0
+Text Label 1150 3100 0    50   ~ 0
 ~CS
 Text Label 1150 2900 0    50   ~ 0
 SCLK
-Text Label 1150 3100 0    50   ~ 0
+Text Label 1150 2800 0    50   ~ 0
 MOSI
 Wire Wire Line
 	1550 2500 1150 2500
@@ -599,7 +585,7 @@ U 1 1 5B435585
 P 8850 5400
 F 0 "R10" H 8780 5354 50  0000 R CNN
 F 1 "500" H 8780 5445 50  0000 R CNN
-F 2 "libraries:R_0805_2012Metric" V 8780 5400 50  0001 C CNN
+F 2 "libraries:R_1206_3216Metric" V 8780 5400 50  0001 C CNN
 F 3 "~" H 8850 5400 50  0001 C CNN
 	1    8850 5400
 	-1   0    0    1   
@@ -610,7 +596,7 @@ U 1 1 5B438B42
 P 8550 5150
 F 0 "R9" H 8480 5104 50  0000 R CNN
 F 1 "500" H 8480 5195 50  0000 R CNN
-F 2 "libraries:R_0805_2012Metric" V 8480 5150 50  0001 C CNN
+F 2 "libraries:R_1206_3216Metric" V 8480 5150 50  0001 C CNN
 F 3 "~" H 8550 5150 50  0001 C CNN
 	1    8550 5150
 	-1   0    0    1   
@@ -705,11 +691,8 @@ Wire Wire Line
 	7750 1200 7900 1200
 Wire Wire Line
 	7900 1250 7900 1200
-NoConn ~ 10100 4100
 Wire Wire Line
-	9950 3700 9950 3650
-Wire Wire Line
-	9950 4250 9950 4200
+	9950 4150 9950 4100
 Wire Wire Line
 	9750 4800 9750 4700
 Wire Wire Line
@@ -861,4 +844,19 @@ Wire Wire Line
 Wire Wire Line
 	7900 1000 7900 1200
 Connection ~ 7900 1200
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 6014548A
+P 4025 2175
+F 0 "#PWR0108" H 4025 2025 50  0001 C CNN
+F 1 "+3.3V" V 4025 2325 50  0000 L CNN
+F 2 "" H 4025 2175 50  0001 C CNN
+F 3 "" H 4025 2175 50  0001 C CNN
+	1    4025 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2350 4025 2350
+Wire Wire Line
+	4025 2175 4025 2350
 $EndSCHEMATC

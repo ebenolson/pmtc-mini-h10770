@@ -1,32 +1,4 @@
-33994443178826
-10104110-0001LF
-10104110-0001LF
-10104110-0001LF
-Connector
-0
-9
-9
-ADP7118AUJZ-3.3-R7
-SOT95P280X100-5N
-S5 Package 5-Lead Plastic TSOT-23
-Integrated Circuit
-0
-5
-5
-DMG3420U-7
-SOT91P24X110-3N
-<li><b>SOT23</b><hr> <ul><li>Plastic surface-mounted package; 3 leads<li><u>JEDEC</u>: TO-236AB <li><u>IEC</u>: -- <li><u>JEITA</u>: --</ul>
-
-0
-3
-3
-DMP2100U-7
-SOT95P230X110-3N
-SOT-23
-MOSFET (P-Channel)
-0
-3
-3
+22555396389957
 libraries
 C_0603_1608Metric
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -63,6 +35,13 @@ mounting hole 2.7mm no annular m2.5
 0
 0
 libraries
+POGO_ISP
+
+
+0
+4
+4
+libraries
 PinHeader_1x03_P2.54mm_Vertical
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
 Through hole pin header THT 1x03 2.54mm single row
@@ -76,13 +55,6 @@ Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
-libraries
-POGO_ISP
-
-
-0
-6
-6
 libraries
 QFN50P400X400X60-28N
 
@@ -105,6 +77,13 @@ resistor
 2
 2
 libraries
+R_1206_3216Metric
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+libraries
 SOT95P280X100-5N
 S5 Package 5-Lead Plastic TSOT-23
 Integrated Circuit
@@ -118,38 +97,3 @@ http://portal.fciconnect.com/Comergent//fci/drawing/10118194.pdf
 0
 9
 6
-MAX5214GUAT
-21-0036K
-
-
-0
-8
-8
-MAX6106EUR-T
-21-0051H
-
-
-0
-3
-3
-STM32F042F6P6
-SOP65P640X120-20N
-TSSOP20
-Integrated Circuit
-0
-20
-20
-TPS22918TDBVTQ1
-SOT95P280X100-6N
-SOT-23(6)
-Integrated Circuit
-0
-6
-6
-ZX62M-B-5P_01_
-HRS_ZX62M-B-5P(01)
-
-
-0
-11
-11
